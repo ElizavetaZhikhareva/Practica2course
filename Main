@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        Person vitya = new Person("Vitya");
+        System.out.println(vitya.name);
+        Student freshman = new Student(76,"Victor", 2);
+        freshman.tell();
+
+    }
+}
