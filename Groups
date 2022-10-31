@@ -1,3 +1,24 @@
-public class Groups {
-int group = 213;
+public abstract class Groups{
+        String korpus;
+        int numberfauditory;
+
+        public Groups(String korpus,  int numberfauditory) {
+            this.korpus = korpus;
+            this.numberfauditory = numberfauditory;
+
+        }
+        public String getKorpus() {
+            return korpus;
+        }
+
+        public void setKorpus(String korpus) {
+            this.korpus = korpus;
+        }
+        public int getNumberfauditory() {
+            return numberfauditory;
+        }
+
+        public void setNumberfauditory(int numberfauditory) {
+            this.numberfauditory = numberfauditory;
+        }
 }
